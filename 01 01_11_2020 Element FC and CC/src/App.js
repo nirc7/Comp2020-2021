@@ -4,7 +4,7 @@ import EFirstElem from './Elements/EFirstElem';
 import CCDog from './ClassComponents/CCDog';
 
 const App =
-  <div>
+  <div style={{padding:5}}>
     <CCDog name="Snoopy" hasBone={true}/>
     <CCDog name="chubi" hasBone={false}/>
     {EFirstElem}
